@@ -26,9 +26,6 @@
     "build-modules": "cross-env BABEL_ENV=build babel src --out-dir dist/module ",
     "ship-it": "npm run build && npm publish --tag next"
   },
-  "peerDependencies": {
-    "react": ">=15"
-  },
   "devDependencies": {
     "@kadira/storybook": "^2.5.2",
     "@types/react": "^15.0.34",
@@ -71,7 +68,8 @@
     "react-redux": "^5.0.6",
     "recompose": "^0.21.2",
     "redux": "^3.5.2",
-    "reselect": "^2.5.3"
+    "reselect": "^2.5.3",
+    "react": "^15.3.2"
   },
   "ava": {
     "require": [
